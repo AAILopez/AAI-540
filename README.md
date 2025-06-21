@@ -4,7 +4,7 @@ This project demonstrates a full end-to-end machine learning workflow on Amazon 
 
 Next, we queried our feature store using AWS Athena and prepared the data for model deployment. This preparation included splitting the dataset into training, validation, and test sets, applying one-hot encoding to categorical variables, and standardizing numerical features.
 
-For the modeling phase, each team member was responsible for deploying a different algorithm: Luis deployed a logistic regression model, Andre implemented XGBoost, and Aaron developed a narrow neural network. The primary objective of this project was not to optimize for the best model performance, but to illustrate the practical steps of an applied Machine Learning Operations (MLOps) pipeline.
+For the modeling phase, each team member was responsible for deploying a different algorithm: Luis deployed a logistic regression model, Andrew implemented XGBoost, and Aaron developed a narrow neural network. The primary objective of this project was not to optimize for the best model performance, but to illustrate the practical steps of an applied Machine Learning Operations (MLOps) pipeline.
 
 After deployment to a production endpoint, we established comprehensive monitoring using Amazon CloudWatch. Our monitoring included bias detection, performance metrics, and infrastructure monitoring (e.g., CPU/GPU utilization, latency), all visualized in a unified CloudWatch dashboard.
 
